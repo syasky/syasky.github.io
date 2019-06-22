@@ -3,8 +3,10 @@ body{
 	background-size:100% ;
 	background-repeat: no-repeat;
 }
-
-
+.vx{
+	style:float left;
+	margin: 80px 100px 200px 550px;
+}
 
 .nav {
   width: 100%;
