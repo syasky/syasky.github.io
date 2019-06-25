@@ -1,5 +1,5 @@
 body{
-	background: url(../img/55.png);
+	background:url(../img/55.png);
 	background-size:100% ;
 	background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@ strong{
     .quote .line-through span {
       position: absolute;
       display: inline-block;
-      background: #fff;
+       background: #fff; 
       width: 200px;
       margin-left: -100px;
       line-height: 30px; }
@@ -134,10 +134,10 @@ strong{
       .quote .line-through a:hover {
         color: #F5235D; }
   .quote .stripe-border {
-    background: linear-gradient(to bottom, #fff, #fff 90%, #333 90%, #333);
+    background: linear-gradient(to bottom, #fff, #fff 90%, #333 90%, #333); 
     background-size: 100% 8px; }
     .quote .stripe-border blockquote {
-      background: #fff;
+       background: #fff;
       margin: 0 10px;
       padding: 30px;
       font-size: 18px;

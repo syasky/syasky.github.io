@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>关于</title>
 		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<header class="header">
@@ -18,19 +20,50 @@
 		</header>
 			<nav class="nav">			 
 				<ul>
-					<li><a href="index.html">首页</a></li>
-					<li><a href="about.html">发电</a></li>
-					<li><a href="https://me.csdn.net/sya1975">CSDN</a></li>
-					<li><a href="index.html">关于</a></li>
+					<li class="home"><a href="index.html">首页</a></li>
+					<li class="fd"><a href="fadian.html">发电</a></li>
+					<li class="csdn"><a href="https://me.csdn.net/sya1975">CSDN</a></li>
+					<li class="gy"><a href="about.html">关于</a></li>
 				</ul>
-			</nav>
-		<div class="vx">
-			<table>
-				<tr>
-					<td><img src="img/wx.jpg" width="200px";height="200px";style="position: absolute;left:800px;top: 100px;"></td>
-					<td><img src="img/zfb.jpg" width="200px";height="200px";style="position: absolute;left:800px;top: 100px;"></td>
-				</tr>
-			</table>
+		    </nav>
+		
+		 <h2><a  style="color: #38A3DB"></h2>
+						
+						<div class="waifu">
+						    <div class="waifu-tips"></div>
+						    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+						    <div class="waifu-tool">
+						        <span class="fui-home"></span>
+						        <span class="fui-chat"></span>
+						        <span class="fui-eye"></span>
+						        <span class="fui-user"></span>
+						        <span class="fui-photo"></span>
+						        <span class="fui-info-circle"></span>
+						        <span class="fui-cross"></span>
+						    </div>
+						</div>
+						    
+						<script src="assets/waifu-tips.js"></script>
+						<script src="assets/live2d.js"></script>
+						<script type="text/javascript">initModel("assets/")</script>		
+					</nav>
+		<div class="banquan">
+			<ul class="post-copyright">
+				<li class="post-copyright-author">
+				<strong>本博客作者:</strong>
+				"不可观测のsya"
+				</li>
+				<li class="post-copyright-link">
+					<strong>本博客链接:</strong>
+					<a href="https://syasky.github.io" class="lianjie">"https://syasky.github.io"</a>		
+				</li>
+				<li class="post-copyright-license">
+					<strong>版权声明:</strong>
+					"本博客所有文章除特别声明外，均采用"
+					<a href="https://baike.baidu.com/item/CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC/1611144?fr=aladdin rel="external nofollow" target="_blank" class="lianjie">CC BY-NC-SA 3.0</a>
+				      "许可协议。转载请注明出处！"
+				</li>
+			</ul>
 		</div>
 	</body>
 </html>
