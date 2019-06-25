@@ -6,8 +6,20 @@
         },
         {
             "selector": ".home",
-            "text": ["点击它就能回到首页哦"]
+            "text": ["点击它©就能回到首页哦"]
         },
+		{
+		    "selector": ".post-copyright-author",
+		    "text": ["这是我家主人(*^-^*)"]
+		},
+			{
+		    "selector": ".post-copyright-link",
+		    "text": ["这是我家主人的博客链接哦！(๑ゝω╹๑)"]
+		},
+			{
+		    "selector": ".post-copyright-license",
+		    "text": ["版权可是很重要的哦（´v｀）"]
+		},
 		 {
 		    "selector": ".fd",
 		    "text": ["想给我家主人点打赏吗"]

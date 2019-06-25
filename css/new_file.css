@@ -3,11 +3,32 @@ body{
 	background-size:100% ;
 	background-repeat: no-repeat;
 }
+.post-copyright-author{
+	color:dimgray;
+}
+.post-copyright-license{
+	color:dimgray;
+}
+.post-copyright {
+    margin: 2em 0 0;
+    padding: 0.5em 1em;
+    border-left: 3px solid #ff1700;
+    list-style: none;
+		}
+strong{
+	color: #333333;
+}
+.lianjie{
+	text-decoration: none;
+}
 .vx{
 	style:float left;
 	margin: 80px 100px 200px 550px;
 }
 
+		.banquan{
+	   padding-left: 400px;
+		}
 .nav {
   width: 100%;
   border-top: 1px solid #eee; }
