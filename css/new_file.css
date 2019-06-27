@@ -1,8 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background:url(../img/55.png);
 	background-size:100% ;
 	background-repeat: no-repeat;
 }
+/*.touxiang{
+	float: right;
+	background-color:#696969;filter:alpha(opacity:30);-moz-opacity: .5;opacity:  .5;
+	width: 360px;
+	height: 672px;
+}*/
+
 .post-copyright-author{
 	color:dimgray;
 }
@@ -48,7 +59,7 @@ strong{
         text-transform: uppercase;
         font-size: 13px;
         font-weight: 700;
-        letter-spacing: 1.25rem;
+        letter-spacing: 1px;
         font-family: "Raleway", Helvetica, Arial, sans-serif;
         color: #222;
         -webkit-transition: .5s all;
@@ -137,7 +148,7 @@ strong{
     background: linear-gradient(to bottom, #fff, #fff 90%, #333 90%, #333); 
     background-size: 100% 8px; }
     .quote .stripe-border blockquote {
-       background: #fff;
+       background: white;
       margin: 0 10px;
       padding: 30px;
       font-size: 18px;
@@ -145,3 +156,6 @@ strong{
       line-height: 1.5; }
   .quote cite {
     font-style: normal; }
+		
+		
+		

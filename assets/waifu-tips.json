@@ -26,7 +26,11 @@
 		},
 		 {
 		    "selector": ".csdn",
-		    "text": ["要看我家主人的CSDN"]
+		    "text": ["想要看我家主人的CSDN吗？"]
+		},
+		 {
+		    "selector": ".github",
+		    "text": ["想要看我家主人的github吗？"]
 		},
 		 {
 		    "selector": ".gy",
