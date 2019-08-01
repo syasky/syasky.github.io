@@ -6,7 +6,7 @@
         },
         {
             "selector": ".home",
-            "text": ["点击它©就能回到首页哦"]
+            "text": ["点击它就能回到首页哦。"]
         },
 		{
 		    "selector": ".post-copyright-author",
@@ -22,7 +22,7 @@
 		},
 		 {
 		    "selector": ".fd",
-		    "text": ["想给我家主人点打赏吗"]
+		    "text": ["想给我家主人点打赏吗？"]
 		},
 		 {
 		    "selector": ".csdn",
@@ -34,7 +34,7 @@
 		},
 		 {
 		    "selector": ".gy",
-		    "text": ["这里有一些关于我家主人的秘密，要不要看看呢"]
+		    "text": ["这里有一些关于我家主人的秘密，要不要看看呢？"]
 		},
         {
             "selector": "#tor_show",
