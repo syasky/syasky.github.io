@@ -57,5 +57,40 @@
 				<script type="text/javascript">initModel("assets/")</script>
 					
 			</nav>
+			
+			
+			
+			
+			
+			<!-- 底部 -->
+				<!-- Footer -->
+			<footer>
+				<div class="inner">
+					<div class="container">
+						<div class="copyright">
+							<span class="sub"><strong>---------------------------------------------------------------------------------------------------------------------------©博主</strong>: <a class="person">不可观测のsya</a> </span>
+						</div>
+						<a href="#0" class="backtotop">Top</a>
+					</div>
+				</div>
+			</footer>
+			<script src="js/scripts.js"></script>
+			
+			<script>
+			
+				$('.article #info').readmore({
+					speed: 600,
+					moreLink: '<a class="button-text" href="#">Read More <span>&darr;</span></a>',
+					lessLink: '<a class="button-text" href="#">Read Less <span>&uarr;</span></a>',
+					collapsedHeight: 120,
+					heightMargin: 20,
+					afterToggle: function(trigger, element, expanded) {
+							if(! expanded) { // The "Close" link was clicked
+							$('html, body').animate({scrollTop: element.offset().top}, {duration: 300});
+						}
+					}
+				});
+			
+			</script>
 	</body>
 </html>

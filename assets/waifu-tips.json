@@ -4,12 +4,20 @@
             "selector": ".container a[href^='http']",
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
+		{
+			"selector": ".backtotop",
+			"text": ["点击回到顶部。"]
+		},
         {
             "selector": ".home",
             "text": ["点击它就能回到首页哦。"]
         },
 		{
 		    "selector": ".post-copyright-author",
+		    "text": ["这是我家主人(*^-^*)"]
+		},
+		{
+		    "selector": ".person",
 		    "text": ["这是我家主人(*^-^*)"]
 		},
 			{

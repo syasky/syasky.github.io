@@ -6,6 +6,7 @@ body{
 	background:url(../img/55.png);
 	background-size:100% ;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 /*.touxiang{
 	float: right;
@@ -42,7 +43,7 @@ strong{
 		}
 .nav {
   width: 100%;
-  border-top: 1px solid #eee; }
+  border-top: 1px solid #333333; }
   .nav ul {
     list-style: none;
     padding: 0px;
@@ -157,5 +158,154 @@ strong{
   .quote cite {
     font-style: normal; }
 		
+		/* 底部 */
+		/*--------------------------------------------------
+		Footer
+		---------------------------------------------------*/
+		footer {
+		  border-top: 1px solid #F9F9F9;
+		  /* background-color: #fcfcfc; */
+		  padding: 60px 0 10px 0;
+		  text-align: center; }
+		  footer .copyright {
+		    float: none;
+		    font-family: "Raleway", Helvetica, Arial, sans-serif;
+		    font-size: 16px;
+		    display: inline-block;
+		    margin: 0 auto 40px auto; 
+				color: #333333;}
+		    footer .copyright a {
+		      text-decoration: none; }
+		  footer .backtotop {
+		    float: right;
+		    position: relative;
+		    text-decoration: none;
+		    height: 40px;
+		    width: 40px;
+		    text-indent: -99999px;
+		    margin-right: 20px;
+		    white-space: nowrap;
+		    background: rgba(0, 0, 0, 0.8) url(../img/top-arrow.png) no-repeat center 50%;
+		    -webkit-transition: .5s all;
+		    -o-transition: .5s all;
+		    -moz-transition: .5s all;
+		    transition: .5s all; }
+		    footer .backtotop:hover {
+		      /* background-color: #F5235D; */
+		      -webkit-transition: .5s all;
+		      -o-transition: .5s all;
+		      -moz-transition: .5s all;
+		      transition: .5s all; }
+		
+		/*--------------------------------------------------
+		Responsive
+		---------------------------------------------------*/
+		@media (min-width: 400px) {
+		  .socials {
+		    margin: 2px 0 0 0; }
+		    .socials li a {
+		      font-size: 1.6em; }
+		  .search-box .btn-close {
+		    top: 30px;
+		    right: 30px;
+		    width: 15px;
+		    height: 15px; }
+		    .search-box .btn-close:hover {
+		      opacity: 1; }
+		  .search-box .help {
+		    margin-top: 30px;
+		    font-size: 12px;
+		    line-height: 1.7; }
+		  .active.search-box {
+		    padding: 4em 2em; }
+		    .active.search-box input[type=text] {
+		      font-size: 36px;
+		      height: 41px; }
+		  .nav ul li a {
+		    padding: 0px 6px;
+		    font-size: 13px;
+		    letter-spacing: 2px;
+		    font-weight: 600; } }
+		
+		@media (min-width: 750px) {
+		  .top-bar .box.box-1, .top-bar .box.box-2 {
+		    width: 50%; }
+		  .search-box .btn-close {
+		    top: 60px;
+		    right: 60px;
+		    width: 15px;
+		    height: 15px; }
+		    .search-box .btn-close:hover {
+		      opacity: 1; }
+		  .search-box .help {
+		    margin-top: 70px;
+		    font-size: 12px;
+		    line-height: 1.7; }
+		  .active.search-box {
+		    padding: 6em; }
+		    .active.search-box input[type=text] {
+		      font-size: 50px;
+		      height: 61px; }
+		  .nav ul li a {
+		    padding: 0px 30px;
+		    font-size: 14px;
+		    letter-spacing: 2px;
+		    font-weight: 600; }
+		  .article header .meta-data {
+		    padding: 60px; }
+		    .article header .meta-data .author time {
+		      padding-right: 18px;
+		      font-size: 16px;
+		      letter-spacing: 2px;
+		      font-weight: 600; }
+		  .article .entry-content {
+		    max-width: 60%; }
+		  .article footer {
+		    padding: 60px; }
+		  .pagination li {
+		    margin: 0 20px; }
+		    .pagination li a.next, .pagination li a.prev {
+		      font-size: 16px; }
+		  footer {
+		    border-top: 1px solid #f9f9f9; 
+		    /* background-color: #fcfcfc; */
+		    text-align: left; }
+		    footer .copyright {
+		      float: left;
+		      font-family: "Raleway", Helvetica, Arial, sans-serif;
+		      font-size: 16px; }
+		      footer .copyright a {
+		        text-decoration: none; }
+		    footer .backtotop {
+		      float: right;
+		      text-decoration: none;
+		      position: relative;
+		      height: 40px;
+		      width: 40px;
+		      margin-top: -10px;
+		      text-indent: -99999px;
+		      white-space: nowrap;
+		      background: rgba(0, 0, 0, 0.8) url(../img/top-arrow.png) no-repeat center 50%;
+		      -webkit-transition: .5s all;
+		      -o-transition: .5s all;
+		      transition: .5s all; }
+		      footer .backtotop:hover {
+		        /* background-color: #F5235D; */
+		        -webkit-transition: .5s all;
+		        -o-transition: .5s all;
+		        transition: .5s all; }
+		  .languages {
+		    padding-left: 220px; } }
+				
+				/* wenzhang */
+		.wenzhang{
+			text-align: center;
+			color: #333333;
+		}
+		/* lianxi */
+		.lianxi{
+			text-align: center;
+			color: #333333;
+		}
 		
 		

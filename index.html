@@ -59,8 +59,74 @@
 						
 						<!-- 文章 -->
 					    <div class="wenzhang">
+							<h4>声明</h4>
+							<p><strong>1、</strong>本博客是本人与朋友技术交流思想和共同分享所创，并不想将其公之于众，</p>
+							<p>请您在得知本博客域名后不要将其转告他人或不要用任何手段或途径将本人博客传播出去。</p>
+							
+							<p><strong>2、</strong>此博客最终解释权归本人所有，阁下在此博客的所有留言或图片等本人都有权将起删除或修</p>
+							<p>改，如果阁下所留言或图片对您来说有非同小可的价值，请在发表时自己保存原稿，一切丢失责任本人毫不负责。</p>
+							
+							<p><strong>凡进入本人空间的朋友均视为阅读并接受本声明!</strong></p>
+							<p>-----------------------------------------------------------------------------------------------------------------------------------------</p>
+							<h4>Statement</h4>
+							<p><strong>1、</strong>The blog line I thought to communicate with friends and share the record of literature, </p>
+							<p>does not want to be made publicyou know at this blog after the domain name not to be </p>
+							<p>conveyed to others or not to use any means or way to spread my blog.</p>
+							
+							<p><strong>2、</strong>The power of final interpretation of this blog I go to all, you all in this guestbook blog</p>
+							<p>or picture, etc. I have theright to delete or modify the effect, if your picture on the guestbook or </p>
+							<p>you have unusualHsiao Ke value of their own in the published manuscript preservation, and all I am not </p>
+							<p>responsible for the loss of responsibility.</p>
+							
+							<p><strong>Where access to my space friends are regarded as read and accept this statement!</strong></p>
+							<p>-----------------------------------------------------------------------------------------------------------------------------------------</p>
+							<h4>声明書</h4>
+							<p><strong>1、</strong>ブログ部門自身のアイデアや文学の交換共有するために作成のため友人と望んでいない</p>
+							<p>国民は、知っているドメイン名の後にこのブログで作られるかどうかを他の人に私のブログの普及の手段や方法を使</p>
+							<p>用するように伝えてはいけない。</p>
+							<p><strong>2、</strong>これは私のすべてに行くブログの最終的な解釈の力は、このゲストのブログや画像をすべ</p>
+							<p>て、あなたのメッセージや画像などの場合には小さな値を持つ私は、右側を削除するか、効果を変更している公開</p>
+							<p>されたて、すべて私の責任の損失の責任はない独自の原稿を守る。</p>
+							<p><strong>どこにスペースをお友達へのアクセスを読むと見なされ、このステートメントを受け入れる！</strong></p>
+							
 							
 						</div>
+						
+						
+						
+						<!-- 底部 -->
+							<!-- Footer -->
+						<footer>
+							<div class="inner">
+								<div class="container">
+									<div class="copyright">
+										<span class="sub"><strong>---------------------------------------------------------------------------------------------------------------------------©博主</strong>: <a class="person">不可观测のsya</a> </span>
+									</div>
+									<a href="#0" class="backtotop">Top</a>
+								</div>
+							</div>
+						</footer>
+						<script src="js/scripts.js"></script>
+						
+						<script>
+						
+							$('.article #info').readmore({
+								speed: 600,
+								moreLink: '<a class="button-text" href="#">Read More <span>&darr;</span></a>',
+								lessLink: '<a class="button-text" href="#">Read Less <span>&uarr;</span></a>',
+								collapsedHeight: 120,
+								heightMargin: 20,
+								afterToggle: function(trigger, element, expanded) {
+										if(! expanded) { // The "Close" link was clicked
+										$('html, body').animate({scrollTop: element.offset().top}, {duration: 300});
+									}
+								}
+							});
+						
+						</script>
+						
+						
+						
 				</body>
 			</html>
 			
