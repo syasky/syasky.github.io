@@ -6,13 +6,55 @@
 		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
 		<link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
 		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		
+		
+		<!-- 计时器 -->
+		<script>
+		function secondToDate(second) {
+		        if (!second) {
+		            return 0;
+		        }
+		        var time = new Array(0, 0, 0, 0, 0);
+		        if (second >= 365 * 24 * 3600) {
+		            time[0] = parseInt(second / (365 * 24 * 3600));
+		            second %= 365 * 24 * 3600;
+		        }
+		        if (second >= 24 * 3600) {
+		            time[1] = parseInt(second / (24 * 3600));
+		            second %= 24 * 3600;
+		        }
+		        if (second >= 3600) {
+		            time[2] = parseInt(second / 3600);
+		            second %= 3600;
+		        }
+		        if (second >= 60) {
+		            time[3] = parseInt(second / 60);
+		            second %= 60;
+		        }
+		        if (second > 0) {
+		            time[4] = second;
+		        }
+		        return time;
+		    }
+		    function setTime() {
+		   		 /*此处为网站的创建时间*/
+		        var create_time = Math.round(new Date(Date.UTC(2019, 07, 05, 18, 01, 01)).getTime() / 1000);
+		        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+		        currentTime = secondToDate((timestamp - create_time));
+		        currentTimeHtml = '本站已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
+		                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+		                + '秒';
+		        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+		    }
+		    setInterval(setTime, 1000);
+		    </script>
 	</head>
     <body>
 		<header class="header">
 			<div class="container">
 				<div class="logo">
 					<a href="index.html">
-						<h1>SYA</h1>
+						<h1 title="点击回到首页">SYA</h1>
 						<h6>Personal Blog</h6>
 					</a>
 				</div>
@@ -24,7 +66,7 @@
 								<li class="home"><a href="index.html">首页</a></li>
 								<li class="fd"><a href="fadian.html">发电</a></li>
 								<li class="csdn"><a href="https://me.csdn.net/sya1975">CSDN</a></li>
-								<li class="github"><a href="https://github.com/syasky/syasky.github.io">github</a></li>
+								<li class="github"><a href="https://github.com/syasky">github</a></li>
 								<li class="gy"><a href="about.html">关于</a></li>
 							</ul>
 						<div class="quote">
@@ -79,6 +121,7 @@
 								<div class="container">
 									<div class="copyright">
 										<span class="sub"><strong>---------------------------------------------------------------------------------------------------------------------------©博主</strong>: <a class="person">不可观测のsya</a> </span>
+										-----------------------------------------------------------------------------------------------------------------------------------<p id="htmer_time" style="text-align: center; color: #222222;font-size: large;font-weight: bolder">
 									</div>
 									<a href="#0" class="backtotop">Top</a>
 								</div>
@@ -102,7 +145,6 @@
 							});
 						
 						</script>
-						
 						
 						
 				</body>
