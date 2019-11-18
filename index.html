@@ -5,6 +5,7 @@
 		<title>不可观测のsya</title>
 		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
 		<link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/3D.css"/>
 		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 		
 		
@@ -41,7 +42,7 @@
 		        var create_time = Math.round(new Date(Date.UTC(2019, 06, 20, 18, 01, 01)).getTime() / 1000);
 		        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
 		        currentTime = secondToDate((timestamp - create_time));
-		        currentTimeHtml = '本站已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
+		        currentTimeHtml = '小站已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
 		                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
 		                + '秒';
 		        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
@@ -77,7 +78,61 @@
 									</blockquote>
 								</div>
 						</div>
-							 <h2><a  style="color: #38A3DB"></h2>
+							 <div id="neirong">
+								 <div class="3d">
+								 <div class="hovertreeinfo">
+								 <!--/*外层最大容器*/-->
+								 <div class="wp">
+								 <!-- /*包裹所有元素的容器*/-->
+								 <div class="cube">
+								 <!--前面图片 -->
+								 <div class="out_front">
+								 <img src="img/a.jpeg" class="pic" />
+								 </div>
+								 <!--后面图片 -->
+								 <div class="out_back">
+								 <img src="img/b.jpg" class="pic" />
+								 </div>
+								 <!--左图片 -->
+								 <div class="out_left">
+								 <img src="img/c.jpeg" class="pic" />
+								 </div>
+								 <div class="out_right">
+								 <img src="img/d.png" class="pic" />
+								 </div>
+								 <div class="out_top">
+								 <img src="img/e.jpeg" class="pic" />
+								 </div>
+								 <div class="out_bottom">
+								 <img src="img/f.jpeg" class="pic" />
+								 </div>
+								 <!--小正方体 -->
+								 <span class="in_front">
+								 <img src="img/1.jpeg" class="in_pic" />
+								 </span>
+								 <span class="in_back">
+								 <img src="img/2.jpeg" class="in_pic" />
+								 </span>
+								 <span class="in_left">
+								 <img src="img/3.jpg" class="in_pic" />
+								 </span>
+								 <span class="in_right">
+								 <img src="img/4.jpg" class="in_pic" />
+								 </span>
+								 <span class="in_top">
+								 <img src="img/5.jpg" class="in_pic" />
+								 </span>
+								 <span class="in_bottom">
+								 <img src="img/6.jpg" class="in_pic" />
+								 </span>
+								 </div>
+								 </div>
+								 </div>
+							</div>	 
+								 
+								 
+								 
+							 
 							
 							<!-- 看板娘 -->
 							<div class="waifu">
