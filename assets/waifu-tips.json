@@ -5,6 +5,10 @@
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
         },
 		{
+		    "selector": ".vx",
+		    "text": ["要给我家主人一点打赏吗？"]
+		},
+		{
 			"selector": ".backtotop",
 			"text": ["点击回到顶部。"]
 		},
@@ -50,7 +54,7 @@
 		},
 		{
 		    "selector": "#htmer_time",
-		    "text": ["这是本站的运行时间哦(*^-^*)"]
+		    "text": ["这是本站运行的时间哦（*^-^*)"]
 		},
         {
             "selector": "#tor_show",
